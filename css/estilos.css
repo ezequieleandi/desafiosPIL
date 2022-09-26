@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     font-size: 2.5rem;
     font-family: 'Antonio', sans-serif;
@@ -19,13 +23,28 @@ h1{
 .ulNav li:hover{
    background-color: bisque;
 }
-.sectionAnimales{
+/* .sectionAnimales{
     display: flex;
     justify-content: center;
 }
 .sectionAnimales div{
     margin-left: 1%;
-}
+} */
 p{
     font-size: 1.2rem;
+}
+.sectionFrase{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 122, 89);
+}
+.sectionFrase p{
+    width: 80%;
+    font-size: 1.5rem;
+}
+.imgAnimales{
+    width: 100%;
 }
