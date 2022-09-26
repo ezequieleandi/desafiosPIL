@@ -3,35 +3,37 @@
     padding: 0;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Antonio', sans-serif;
     display: flex;
     justify-content: center;
     color: rgb(237, 185, 122);
 }
-.ulNav{
-    display: flex;
-    justify-content: center;
-}
-.ulNav li{
-    font-size: 1.2rem;
-    background-color: rgb(126, 163, 157);
-    margin-right: 1%;
-    list-style-type: none;
-    padding: 0 20px;
-}
-.ulNav li:hover{
-   background-color: bisque;
-}
-/* .sectionAnimales{
-    display: flex;
-    justify-content: center;
-}
-.sectionAnimales div{
-    margin-left: 1%;
-} */
 p{
     font-size: 1.2rem;
+}
+header{
+    background-color: rgb(118, 118, 118);
+}
+.seccionTitulo1{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.seccionTitulo1 a img{
+    margin: 10% 0 0 2%;
+    width: 70%;
+    height: 70%;
+}
+.navItem div{
+    display: flex;
+    justify-content: center;
+}
+.navItem div ul li{
+    background-color: gray;
+    margin-right: 1%;
+    padding: 0 20px;
 }
 .sectionFrase{
     height: 300px;
@@ -40,11 +42,19 @@ p{
     justify-content: center;
     align-items: center;
     background-color: rgb(112, 122, 89);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .sectionFrase p{
-    width: 80%;
+    width: 100%;
     font-size: 1.5rem;
+}
+.sectionAnimales{
+    display: flex;
+    justify-content: center;
 }
 .imgAnimales{
     width: 100%;
+    height: 100%;
 }
+

@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <div>
+        <div class="seccionTitulo1">
             <!--imagen + titulo-->
             <a href="./index.html"><img src="./imagenes/logo1.png" alt="logo"></a>
             <h1>NaturAnimal</h1>
@@ -47,42 +47,69 @@
                     </ul>
                 </div>
             </div>
+        </nav>
     </header>
     <section class="sectionFrase container text-center">
         <p class="pFrase"><i>"Los animales <b>no son</b> propiedades o cosas. <b>Son</b> organismos vivientes, sujetos de una vida, que merecen nuestra compasión, respeto, amistad y apoyo"</i></p>
         <p>(Marc Bekoff)</p>
     </section>
-    <div class="sectionAnimales container-fluid">
-        <div class="row">
-            <div class="card col-4" style="width: 18rem;">
-                <img src="./imagenes/pajarosNew.jfif" class="card-img-top" alt="tigre">
+    <!-- Seccion animales -->
+    <section class="container-fluid" id="animales">
+        <h2 class="text-center">ANIMALES DEL MUNDO</h2>
+        <div class="row sectionAnimales">
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/pajarosNew.jfif" class="card-img-top imgAnimales" alt="pajaros">
                 <div class="card-body">
-                  <h5 class="card-title">Aves del mundo</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://www.nationalgeographic.com.es/animales/aves" class="btn btn-primary">Visitar sitio</a>
+                  <h5 class="card-title">AVES</h5>
+                  <p class="card-text">"Para poder ver pájaros es necesario formar parte del silencio". - Robert Lynd</p>
+                  <a href="https://www.nationalgeographic.com.es/animales/aves" class="btn btn-primary">Leer sobre aves</a>
                 </div>
             </div>
-            <div class="card col-4" style="width: 18rem;">
-                <img src="./imagenes/serpientesNew.jfif" class="card-img-top" alt="tigre">
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/serpientesNew.jfif" class="card-img-top imgAnimales" alt="serpientes">
                 <div class="card-body">
-                  <h5 class="card-title">Serpientes del mundo</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://www.nationalgeographic.com.es/animales/serpientes" class="btn btn-primary">Visitar sitio</a>
+                  <h5 class="card-title">SERPIENTES</h5>
+                  <p class="card-text">"La serpiente cambia el cuerpo, pero no su obrar rastrero". - Jake Roberts.</p>
+                  <a href="https://www.nationalgeographic.com.es/animales/serpientes" class="btn btn-primary">Leer sobre serpientes</a>
                 </div>
             </div>
-            <div class="card col-4" style="width: 18rem;">
-                <img src="./imagenes/tigresNew.jfif" class="card-img-top" alt="tigre">
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/tigresNew.jfif" class="card-img-top imgAnimales" alt="tigre">
                 <div class="card-body">
-                  <h5 class="card-title">Tigres del mundo</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="https://www.nationalgeographic.es/animales/tigre-de-bengala" class="btn btn-primary">Visitar sitio</a>
+                  <h5 class="card-title">TIGRES</h5>
+                  <p class="card-text">"Si usted molesta a un tigre, él va a mostrar sus garras". - Rob James Collier.</p>
+                  <a href="https://www.nationalgeographic.es/animales/tigre-de-bengala" class="btn btn-primary">Leer sobre tigres</a>
+                </div>
+            </div>
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/peces.jfif" class="card-img-top imgAnimales" alt="peces">
+                <div class="card-body">
+                  <h5 class="card-title">PECES</h5>
+                  <p class="card-text">"Donde sea que estén los peces, allí es a donde vamos". - Richard Wagner.</p>
+                  <a href="https://www.nationalgeographic.com.es/animales/peces" class="btn btn-primary">Leer sobre peces</a>
+                </div>
+            </div>
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/monos.jfif" class="card-img-top imgAnimales" alt="monos">
+                <div class="card-body">
+                  <h5 class="card-title">MONOS</h5>
+                  <p class="card-text">“Un mono rara vez se resbala con una cáscara de plátano”. - VKBoy.</p>
+                  <a href="https://www.nationalgeographic.com.es/animales/monos" class="btn btn-primary">Leer sobre monos</a>
+                </div>
+            </div>
+            <div class="card col-4 text-center" style="width: 18rem;">
+                <img src="./imagenes/elefantes.jfif" class="card-img-top imgAnimales" alt="elefantes">
+                <div class="card-body">
+                  <h5 class="card-title">ELEFANTES</h5>
+                  <p class="card-text">"La gran obra maestra de la naturaleza, un elefante; la única gran cosa inofensiva". - John Donne.</p>
+                  <a href="https://www.nationalgeographic.com.es/animales/elefantes" class="btn btn-primary">Leer sobre elefantes</a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer>
         <div>
-            <h2>CONTACTO</h2>
+            <h2 id="contacto">CONTACTO</h2>
             <p>(medios de contacto)</p>
         </div>
     </footer>
